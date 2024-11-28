@@ -7,7 +7,6 @@ async function fetchBlacklist() {
         const response = await fetch("blacklist.json");
         if (!response.ok) throw new Error("Fehler beim Abrufen der Blacklist.");
         blacklist = await response.json();
-        console.log("Blacklist:", blacklist);
     } catch (error) {
         console.error("Fehler beim Laden der Blacklist:", error);
         blacklist = [];
