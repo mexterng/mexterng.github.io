@@ -17,8 +17,11 @@
         </section>
     </main>
     <footer>
-        <p>© 2024 Mexterng</p>
+        <p>© <span id="year"></span> mexterng</p>
     </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
