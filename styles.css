@@ -3,13 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #fff;
     color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #bbb;
     padding: 20px;
     text-align: center;
 }
@@ -32,7 +31,7 @@ main {
 
 .repo-item h2 {
     margin: 0 0 10px;
-    color: #0073e6;
+    color: #08558a;
 }
 
 .repo-item p {
@@ -42,7 +41,7 @@ main {
 footer {
     text-align: center;
     padding: 10px 20px;
-    background: #333;
-    color: #fff;
+    background: #bbb;
+    color: #333;
     margin-top: 20px;
 }
